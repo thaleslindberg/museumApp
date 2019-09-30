@@ -3,16 +3,22 @@ In this first phase it was created just a prototype of the screens of the app ma
 
 <img src="images/screen-one.png" width="300">
 <ul>
-  <li>screen One</li>
+  <li>SCREEN ONE</li>
 </ul>
 
 <img src="images/screen-two.png" width="300">
-screen Two
+<ul>
+  <li>SCREEN TWO</li>
+</ul>
 
 <img src="images/screen-three.png" width="300">
-screen Three
+<ul>
+  <li>SCREEN THREE</li>
+</ul>
 
 <img src="images/screen-four.png" width="300">
-screen Four
+<ul>
+  <li>SCREEN FOUR</li>
+</ul>
 
 
