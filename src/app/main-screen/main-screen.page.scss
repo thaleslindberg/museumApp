@@ -1,0 +1,38 @@
+ion-content{ --ion-background-color: linear-gradient(#f0e68c, #ffdab9); }
+
+p {
+    color: #000000;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.card {
+    background: linear-gradient(#f4f5f8, #242423);
+}
+
+.card-content {
+    background: linear-gradient(#f4f5f8, #d6d1d1);
+
+}
+
+.icon-arrow {
+    position: absolute;
+    left: 5%;
+    width: 70px;
+    height: 90px;
+}
+
+.icon-close {
+    position: absolute;
+    right: 5%;
+    width: 70px;
+    height: 90px;
+}
+
+.icon-search {
+    position: absolute;
+    left: 43%;
+    width: 50px;
+    height: 65px;
+    top: 3.5mm;
+}

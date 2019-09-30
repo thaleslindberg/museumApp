@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title></ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card color="dark">
+    <ion-card-title class="ion-card"></ion-card-title>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Nome"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="tel" placeholder="Telefone"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="number" placeholder="CEP"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Endereço (Rua e número)"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Bairro"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Complemento"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Usuário"></ion-input>
+    </ion-item>
+  </ion-card>
+
+  <ion-label class="ion-label1">
+    <ion-button [routerLink]="['/home']" routerDirection="forward" color="dark" expand="block" shape="round" size="large">CADASTRAR</ion-button>
+  </ion-label>
+
+  <ion-label class="ion-label2">
+    <ion-button [routerLink]="['/login']" routerDirection="forward" color="dark" expand="block" fill="outline"
+      shape="round" size="large">JÁ POSSUI UMA CONTA?</ion-button>
+  </ion-label>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="dark">
+  </ion-toolbar>
+</ion-footer>

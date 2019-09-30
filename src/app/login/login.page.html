@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title></ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card color="dark">
+    <ion-card-title class="ion-card"></ion-card-title>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Usuario"></ion-input>
+      <ion-icon name="person" slot="end"></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" placeholder="Senha"></ion-input>
+      <ion-icon name="lock" slot="end"></ion-icon>
+    </ion-item>
+  </ion-card>
+
+  <ion-label class="ion-label">
+    <ion-button [routerLink]="['/home']" routerDirection="forward" color="dark" expand="block" shape="round" size="large">ENTRAR</ion-button>
+  </ion-label>
+
+  <ion-title class="ion-title">
+    <div [routerLink]="['/signup']" routerDirection="forward"> {{ registrar }} </div>
+  </ion-title>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="dark">
+  </ion-toolbar>
+</ion-footer>

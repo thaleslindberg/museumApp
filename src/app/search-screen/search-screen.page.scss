@@ -1,0 +1,22 @@
+ion-content{ --ion-background-color: linear-gradient(#f0e68c, #ffdab9); }
+
+.ion-icon {
+    position: relative;
+    left: 7ch;
+    height: 700px;
+    width: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    position: absolute;
+    left: 110px;
+    top: 380px;
+}
+
+ion-icon {
+    position: absolute;
+    left: 3%;
+    width: 70px;
+    height: 90px;
+}

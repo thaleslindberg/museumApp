@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title></ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+
+  <ion-label class="ion-label1">
+    <ion-button [routerLink]="['/search-screen']" routerDirection="forward" color="dark" expand="block" shape="round" size="large">VISITAR</ion-button>
+  </ion-label>
+
+  <ion-label class="ion-label2">
+    <ion-button [routerLink]="['/login']" routerDirection="forward" color="dark" expand="block" shape="round" size="large">ENTRAR USANDO CONTA</ion-button>
+  </ion-label>
+
+  <ion-label class="ion-label3">
+    <ion-button [routerLink]="['/signup']" routerDirection="forward" color="dark" expand="block" shape="round" size="large">CADASTRAR</ion-button>
+  </ion-label>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="dark">
+  </ion-toolbar>
+</ion-footer>
