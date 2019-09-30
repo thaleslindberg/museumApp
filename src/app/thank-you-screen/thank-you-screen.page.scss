@@ -1,14 +1,21 @@
 ion-content{ --ion-background-color: linear-gradient(#f0e68c, #ffdab9); }
 
 h1 {
-    font-size: 170%;
+    font-size: 150%;
     font-weight: bold;
+    position: absolute;
+    top: 9cm;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .icon-home {
     position: absolute;
-    left: 155px;
+    left: 50%;
     bottom: 8mm;
-    width: 70px;
-    height: 90px; 
+    width: 60px;
+    height: 80px; 
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }

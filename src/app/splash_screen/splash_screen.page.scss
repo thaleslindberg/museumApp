@@ -3,19 +3,31 @@ ion-content{ --ion-background-color: linear-gradient(#f0e68c, #ffdab9); }
 .ion-padding { height: 90%; }
 
 h1 {
-    font-size: 200%;
+    font-size: 150%;
     font-weight: bold;
+    position: absolute;
+    top: 9cm;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 h5 {
     color: #ffffff;
-    font-size: 100%;
+    font-size: 90%;
     font-weight: bold;
+    position: absolute;
+    top: 10cm;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
 }
 
 ion-icon {
     position: absolute;
+    top: 1%;
     right: 3%;
-    width: 70px;
-    height: 90px;
+    width: 50px;
+    height: 80px;
 }

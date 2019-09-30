@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SplashScreenPage {
 
-  welcomeText : string = 'Seja bem vindo!';
+  welcomeText : string = 'Seja Bem Vindo!';
   museumName : string = 'MUSEU DE ARTE ASSIS CHATEUBRIAND';
 
 

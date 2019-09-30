@@ -1,12 +1,12 @@
 <ion-header>
-    <ion-icon name="arrow-round-back" [routerLink]="['/home']" routerDirection="back" slot="end" size="large"></ion-icon>
+    <ion-icon name="arrow-round-back" [routerLink]="['/home']" routerDirection="forward" class="ion-arrow" slot="start"></ion-icon>
 </ion-header>
 
 <ion-content>
 
-  <ion-icon (click)="presetLoading()" [routerLink]="['/main-screen']" routerDirection="forward" name="search" class="ion-icon" size="large"></ion-icon>
+  <ion-icon (click)="presetLoading()" [routerLink]="['/main-screen']" routerDirection="forward" name="search" class="ion-search"></ion-icon>
 
-  <ion-text color="dark">
+  <ion-text>
       <h1>{{ searchText }}</h1>
     </ion-text>
 

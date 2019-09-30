@@ -1,22 +1,26 @@
 ion-content{ --ion-background-color: linear-gradient(#f0e68c, #ffdab9); }
 
-.ion-icon {
+.ion-arrow {
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    width: 50px;
+    height: 80px;
+}
+
+.ion-search {
     position: relative;
-    left: 7ch;
-    height: 700px;
-    width: 100px;
+    left: 40%;
+    top: 8.5cm;
+    height: 90px;
+    width: 80px;
 }
 
 h1 {
     font-size: 40px;
-    position: absolute;
-    left: 110px;
-    top: 380px;
-}
-
-ion-icon {
-    position: absolute;
-    left: 3%;
-    width: 70px;
-    height: 90px;
+    position: relative;
+    top: 9cm;
+    left: 42%;
+    margin-right: -50px;
+    transform: translate(-50px, -50px);
 }
